@@ -1,5 +1,5 @@
-# dw-for-bi-specialization
-[University of Colorado - Data Warehousing for Business Intelligence Specialization](https://www.coursera.org/specializations/data-warehousing)
+# [University of Colorado - Data Warehousing for Business Intelligence Specialization](https://www.coursera.org/specializations/data-warehousing)
+### Harness Business Data . Build a fully-optimized business data warehouse in five courses.
 
 ## REQUIREMENTS
 
