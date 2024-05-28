@@ -1,5 +1,5 @@
 # dw-for-bi-specialization
-[Specialization] Data Warehousing for Business Intelligence
+[University of Colorado - Data Warehousing for Business Intelligence Specialization](https://www.coursera.org/specializations/data-warehousing)
 
 ## REQUIREMENTS
 
