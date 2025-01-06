@@ -1,0 +1,21 @@
+services:
+  dwforbidb:
+    build:
+      context: .
+      dockerfile: postgres.dockerfile
+    image: "postgres-dwforbidb"
+    container_name: postgres_dwforbidb
+    environment:
+      POSTGRES_DB: dwforbidb
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      PGDATA: /data/postgres-dwforbidata
+    volumes:
+       - dwforbidata:/data/postgres-dwforbidata
+       - ./databases/sql:/docker-entrypoint-initdb.d
+    ports:
+      - "5435:5432"
+    restart: unless-stopped
+
+volumes:
+  dwforbidata:
