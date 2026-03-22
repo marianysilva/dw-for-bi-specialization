@@ -15,6 +15,8 @@ Demonstrate proficiency (knowledge and skills) of basic/intermediate query formu
 
 - Briefly explain the union compatibility requirement and row matching
 - Write SQL SELECT statements using the UNION/INTERSECT/EXCEPT operator
+- Write SQL SELECT statements using the INSERT/UPDATE/DELETE operator
+- Query formulation errors: Syntax/Redundancy/Semantic
 
 ### Databases
 
